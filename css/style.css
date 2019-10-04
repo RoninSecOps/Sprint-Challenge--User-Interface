@@ -248,6 +248,10 @@ p {
     border: 1px solid black;
   }
 
+.together {
+    margin-top: 5%;
+  }
+
   footer {
     margin: 5% 0;
     width: 100%;
