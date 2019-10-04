@@ -181,93 +181,94 @@ p {
   margin-right: 50px;
 }
 .under-nav-img {
-    width: 800px;
-    margin: 20px 0;
-  }
-  hr {
-    border: 1px dashed black;
-  }
-  article {
-    margin: 50px 0px;
-  }
-  
-  .content-parent {
-    margin-top: 5%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  
-  .first-container {
-    flex-basis: 47%;
-    border-bottom: 1px dashed black;
-    background-image: url(/img/about-plan.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-  
-  .second-container {
-    flex-basis: 47%;
-    border-bottom: 1px dashed black;
-    background-image: url(/img/about-working.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-  img {
-    margin-bottom: 15px;
-  }
-  .third-container {
-    flex-basis: 47%;
-    border-bottom: 1px dashed black;
-    background-image: url(/img/about-office.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-  
-  .fourth-container {
-    flex-basis: 47%;
-    border-bottom: 1px dashed black;
-    background-image: url(/img/about-meeting.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-  
-  .third-container,
-  .fourth-container {
-    margin-top: 5%;
-  }
-  
-  button {
-    background: white;
-    border-radius: 10px;
-    margin: 20px 0;
-    width: 120px;
-    height: 30px;
-    font-size: 14px;
-    font-weight: 700;
-    border: 1px solid black;
-  }
+  width: 800px;
+  margin: 20px 0;
+}
+hr {
+  border: 1px dashed black;
+}
+article {
+  margin: 50px 0px;
+}
+
+.content-parent {
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.first-container {
+  flex-basis: 47%;
+  border-bottom: 1px dashed black;
+  background-image: url(/img/about-plan.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.second-container {
+  flex-basis: 47%;
+  border-bottom: 1px dashed black;
+  background-image: url(/img/about-working.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+img {
+  margin-bottom: 15px;
+}
+.third-container {
+  flex-basis: 47%;
+  border-bottom: 1px dashed black;
+  background-image: url(/img/about-office.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.fourth-container {
+  flex-basis: 47%;
+  border-bottom: 1px dashed black;
+  background-image: url(/img/about-meeting.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.third-container,
+.fourth-container {
+  margin-top: 5%;
+}
+
+button {
+  background: white;
+  border-radius: 10px;
+  margin: 20px 0;
+  width: 120px;
+  height: 30px;
+  font-size: 14px;
+  font-weight: 700;
+  border: 1px solid black;
+  cursor: pointer;
+}
 
 .together {
-    margin-top: 5%;
-  }
+  margin-top: 5%;
+}
 
-  footer {
-    margin: 5% 0;
-    width: 100%;
-    background: black;
-  }
-  
-  footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
-  }
-  
-  footer nav a {
-    color: white;
-    text-decoration: none;
-  }
+footer {
+  margin: 5% 0;
+  width: 100%;
+  background: black;
+}
+
+footer nav {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 2%;
+  font-size: 14px;
+}
+
+footer nav a {
+  color: white;
+  text-decoration: none;
+}
