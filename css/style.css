@@ -237,6 +237,21 @@ img {
   margin-top: 5%;
 }
 
+.first-container img,
+.second-container img,
+.third-container img,
+.fourth-container img {
+  transition: transform 0.5s, filter 0.5s ease-in-out;
+  filter: grayscale(100%);
+}
+
+.first-container img:hover,
+.second-container img:hover,
+.third-container img:hover,
+.fourth-container img:hover {
+  filter: grayscale(0);
+}
+
 button {
   background: white;
   border-radius: 10px;
