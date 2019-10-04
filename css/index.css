@@ -157,6 +157,33 @@ p {
   margin: 0 auto;
 }
 
+.navigation {
+  display: flex;
+  margin-bottom: 20px;
+}
+.navi-top {
+  margin-top: 30px;
+  align-items: center;
+  flex-basis: 100%;
+}
+.navi-top a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  padding: 0px 50px 0px 0px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.navi-top img {
+  margin-right: 50px;
+}
+
+.under-nav-img {
+  width: 800px;
+  margin: 20px 0;
+}
+
 .top-content {
   display: flex;
   flex-wrap: wrap;
