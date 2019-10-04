@@ -156,3 +156,27 @@ p {
   width: 800px;
   margin: 0 auto;
 }
+.navigation {
+  margin-top: 25px;
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.navi-top {
+  display: flex;
+}
+
+.navi-top a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  padding: 0px 50px 0px 0px;
+  margin-top: 3%;
+  margin-right: 3%;
+  font-size: 1.2rem;
+}
+
+.navi-top img {
+  margin-right: 50px;
+}
